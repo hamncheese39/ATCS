@@ -16,7 +16,7 @@ for ones in range(201):
               #print(sumn, ones, twos, fives, tens, twenties, fifties, pounds)
               if sumn == 200:
                 total += 1
-                if total % 1000 == 0:
+                if total % 1000 == 0: #only prints every 1000th combination
                   print("good!", ones, twos, fives, tens, twenties, fifties, pounds)
 
 total += 1 #for the one with just two pounds              
